@@ -1,16 +1,8 @@
 def main():
-    """
-    ##################################################
-    # Comlete your code here
-    Use the same variables: celcius fahrenheit 
-    ##################################################
-    """
+    celcius = int(input("Celsius: "))
 
-    """
-    ########################################
-    # Do not delete the return statement
-    ########################################
-    """
+    fahrenheit = 9/5*celcius + 32
+
     return celcius, fahrenheit
 
 
